@@ -1,7 +1,6 @@
-/*! For license information please see app.js.LICENSE.txt */
 // lon-livewatch.js
 
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
     const livewatchContainer = document.createElement('div');
     livewatchContainer.classList.add('livewatch-container');
 
@@ -29,4 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
     livewatchContainer.appendChild(livewatchContent);
 
     document.body.appendChild(livewatchContainer);
-});
+};
